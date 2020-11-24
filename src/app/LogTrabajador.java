@@ -79,7 +79,7 @@ public class LogTrabajador extends javax.swing.JFrame {
                 btnIngresarActionPerformed(evt);
             }
         });
-        panelTrabajador.add(btnIngresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(267, 145, -1, -1));
+        panelTrabajador.add(btnIngresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 150, -1, -1));
 
         btnVolver.setText("Volver");
         btnVolver.addActionListener(new java.awt.event.ActionListener() {
