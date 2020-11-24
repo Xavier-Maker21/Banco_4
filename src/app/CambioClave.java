@@ -72,15 +72,15 @@ public class CambioClave extends javax.swing.JFrame {
         panelCambio.add(lblC_Nueva, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 85, -1, -1));
 
         lblConfirmar.setText("Conformar Clave:");
-        panelCambio.add(lblConfirmar, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 126, -1, -1));
+        panelCambio.add(lblConfirmar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, -1, -1));
 
         txtC_Nueva.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtC_NuevaActionPerformed(evt);
             }
         });
-        panelCambio.add(txtC_Nueva, new org.netbeans.lib.awtextra.AbsoluteConstraints(132, 85, 156, -1));
-        panelCambio.add(txtN_Confirmar, new org.netbeans.lib.awtextra.AbsoluteConstraints(132, 123, 155, -1));
+        panelCambio.add(txtC_Nueva, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 80, 156, -1));
+        panelCambio.add(txtN_Confirmar, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 120, 155, -1));
 
         btnContinuar.setText("Continuar");
         btnContinuar.addActionListener(new java.awt.event.ActionListener() {
@@ -92,7 +92,7 @@ public class CambioClave extends javax.swing.JFrame {
 
         lblClaveActual.setText("Clave Actual:");
         panelCambio.add(lblClaveActual, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 50, -1, -1));
-        panelCambio.add(txtClaveActual, new org.netbeans.lib.awtextra.AbsoluteConstraints(132, 47, 156, -1));
+        panelCambio.add(txtClaveActual, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 50, 156, -1));
 
         btnVolver.setText("Volver");
         btnVolver.addActionListener(new java.awt.event.ActionListener() {
